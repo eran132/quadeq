@@ -25,7 +25,7 @@ def calculate(a, b, c):
 import unittest
 
 class TestStringMethods(unittest.TestCase):
-    def test_is_last_coef_neg(self):
+    def test_equals_zero(self):
         self.assertTrue(-3+math.sqrt(3**2-4*2*-9)/2*2, 0)
 
 if __name__ == '__main__':
