@@ -27,6 +27,9 @@ import unittest
 class TestStringMethods(unittest.TestCase):
     def test_equals_zero(self):
         self.assertTrue(-3+math.sqrt(3**2-4*2*-9)/2*2, 0)
+    
+    def test_less_than_zero(self):
+        self.assertLess(-3+math.sqrt(3**2-4*2*-9)/2*2, 0)
 
 if __name__ == '__main__':
     unittest.main()
